@@ -1,0 +1,21 @@
+mixed_case = "A song of Ice and Fire"
+print("Is it all upper case?")
+print(mixed_case.isupper())
+print("Is it all lower case?")
+print(mixed_case.islower())
+print("All upper letters:")
+print(mixed_case.upper())
+print("All lower letters:")
+print(mixed_case.lower())
+print("Is it title?")
+print(mixed_case.title())
+
+titleCase = mixed_case.title()
+print(titleCase)
+print("Does it start with \"mixed case\"?")
+print(mixed_case.startswith("mixed_case"))
+print("Does it ends with \"mixed case\"?")
+print(mixed_case.endswith("mixed_case"))
+variable = "words"
+print(variable)
+print("".join([variable]).isalpha())
